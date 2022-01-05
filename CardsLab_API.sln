@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsLab_API", "CardsLab_API\CardsLab_API.csproj", "{44BADB16-A078-4CD9-98AD-2D1FF6F8A5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44BADB16-A078-4CD9-98AD-2D1FF6F8A5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BADB16-A078-4CD9-98AD-2D1FF6F8A5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BADB16-A078-4CD9-98AD-2D1FF6F8A5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BADB16-A078-4CD9-98AD-2D1FF6F8A5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C219F090-1B9E-4AED-B6F6-48017769BD33}
+	EndGlobalSection
+EndGlobal

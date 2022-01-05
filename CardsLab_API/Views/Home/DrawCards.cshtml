@@ -1,0 +1,9 @@
+﻿@model Deck 
+<h2>Here are the cards your drew: </h2>
+@foreach(Card c in Model.cards)
+            {
+
+                <img src="@c.image" />
+                <p>@c.value of @c.suit</p>
+            }
+<p>There are @Model.remaining cards left in deck "@Model.deck_id."</p>

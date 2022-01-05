@@ -1,0 +1,24 @@
+﻿@model Deck
+
+<h4>Draw a card from deck "@Model.deck_id"!</h4>
+<p>There are @Model.remaining cards in the deck.</p>
+
+<form asp-action="DrawCards">
+
+    <p>Select how many cards you would like to draw: </p>
+    <input type="number" name="numOfCards" />
+    <input type="text" name="deckID" value="@Model.deck_id" hidden/>
+    <input type="submit" />
+
+</form>
+
+<h3>OR</h3>
+
+<form asp-action="DrawCards">
+
+    <p>Just give me five cards, dammit! </p>
+    <input type="number" name="numOfCards" value="5"/>
+    <input type="text" name="deckID" value="@Model.deck_id" hidden />
+    <input type="submit" />
+
+</form>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "77nPd1cJLkgwAZ0xkFdpfckXQ6Hf2G6HYLBuSpl8ZPPt4yy7p/XDdCo0+Bt+kj4gQbL77e1hlXaapn8CL/SlkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CFlynn3\\source\\repos\\CardsLab_API\\CardsLab_API\\CardsLab_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CFlynn3\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
